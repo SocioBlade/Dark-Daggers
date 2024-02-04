@@ -36,8 +36,7 @@ shoot_timer = 0;
 recoil_amt = 0;
 
 // Add weapon to array
-array_push (global.weapon_inventory, 
-global.weapon_list.shotgun,  
+array_push (global.weapon_inventory,   
 global.weapon_list.assault)
 
 current_weapon = 0;
