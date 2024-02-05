@@ -37,7 +37,8 @@ recoil_amt = 0;
 
 // Add weapon to array
 array_push (global.weapon_inventory,   
-global.weapon_list.assault)
+global.weapon_list.assault,
+global.weapon_list.shotgun)
 
 current_weapon = 0;
 weapon = global.weapon_inventory[current_weapon];

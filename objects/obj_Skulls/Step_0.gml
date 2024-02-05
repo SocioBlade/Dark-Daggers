@@ -10,7 +10,7 @@ switch (state)
 		{
 			dir = point_direction(x,y, obj_Player.x, obj_Player.y);
 		}
-		
+		image_index = 0;
 		//set correct speed
 		spd = chase_spd;
 		
@@ -27,12 +27,12 @@ switch (state)
 	
 	case 1:
 	
-	// Chase the player
+		//Shoot at player
 		if instance_exists(obj_Player)
 		{
 			dir = point_direction(x,y, obj_Player.x, obj_Player.y);
 		}
-		
+		image_index = 1;
 		// set correct speed
 		spd = 0;
 		

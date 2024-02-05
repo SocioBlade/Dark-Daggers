@@ -32,9 +32,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_EnemyBullet",
-    "path": "sprites/spr_EnemyBullet/spr_EnemyBullet.yy",
+    "name": "spr_fireball",
+    "path": "sprites/spr_fireball/spr_fireball.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

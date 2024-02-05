@@ -4,7 +4,7 @@
   "name": "spr_buckshot",
   "bbox_bottom": 2,
   "bbox_left": 1,
-  "bbox_right": 2,
+  "bbox_right": 3,
   "bbox_top": 1,
   "bboxMode": 2,
   "collisionKind": 1,

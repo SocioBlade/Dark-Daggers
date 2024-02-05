@@ -83,6 +83,11 @@ if inv_swap_down
 	current_weapon++;
 	if current_weapon >= array_length(_player_items) { current_weapon = 0; }
 	weapon = _player_items[current_weapon];
+	if instance_exists(obj_HUD)
+	{
+		if obj_HUD.weapon_spr_index == 0 { obj_HUD.weapon_spr_index = 1;}
+		else { obj_HUD.weapon_spr_index = 0;}
+	}
 }
 
 //Shooting

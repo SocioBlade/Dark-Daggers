@@ -4,6 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
+damage = 2;
 max_dist = 100;
 enemy_impact = true;
 spd = 8;

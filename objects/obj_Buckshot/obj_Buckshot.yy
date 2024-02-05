@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_buckshot",
-    "path": "sprites/spr_buckshot/spr_buckshot.yy",
+    "name": "spr_buckshot24",
+    "path": "sprites/spr_buckshot24/spr_buckshot24.yy",
   },
   "spriteMaskId": null,
   "visible": true,

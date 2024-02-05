@@ -7,6 +7,7 @@ playerHP = 0;
 playerMaxHP = 0;
 spr_index = 0;
 playerScore = 0;
+weapon_spr_index = 0;
 
 //Handle pause
 paused = false;

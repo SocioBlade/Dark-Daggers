@@ -20,7 +20,7 @@ global.weapon_inventory = array_create(0);
 //Weapons 
 global.weapon_list = 
 {
-	shotgun : new WeaponConstruct(spr_Shotgun, get_item_length(spr_Shotgun), obj_Buckshot, 80, 8, 45, 8, 2), 
+	shotgun : new WeaponConstruct(spr_Shotgun, get_item_length(spr_Shotgun), obj_Buckshot, 80, 8, 45, 8, 4), 
 	rocketL : new WeaponConstruct(spr_RocketLauncher, get_item_length(spr_RocketLauncher), obj_Rocket, 100, 1, 0),
 	assault	: new WeaponConstruct(spr_Assult, get_item_length(spr_Assult), obj_Bullet, 15, 1, 0) 
 }
