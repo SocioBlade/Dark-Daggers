@@ -28,6 +28,7 @@ y_spd = lengthdir_y(_spd, move_dir);
 
 	//Check collision
 check_collision(self, obj_Pit_wall);
+interactable = check_interactable(self, obj_room_transit);
 
 	//Move the player
 x += x_spd;

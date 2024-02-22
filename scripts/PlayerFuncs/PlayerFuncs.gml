@@ -10,6 +10,21 @@ function check_collision(object, collider)
 	if place_meeting(object.x, object.y + object.y_spd, collider) { object.y_spd = 0;}
 }
 
+function check_interactable(object, collider)
+{
+	if (!instance_exists(object)) { exit; }
+	if (place_meeting(x, y, collider)) 
+	{
+		if collider.doorOpen && keyboard_check_released(ord("E"))
+		{
+			room_goto(asset_get_index(collider.room_index));
+		}
+		return true;
+	}
+	
+	return false;
+}
+
 function shoot(object, weapon, offset, aim_dir)
 {
 	var _xoffset = lengthdir_x(weapon.length + offset, aim_dir);

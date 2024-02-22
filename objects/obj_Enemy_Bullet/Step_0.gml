@@ -7,7 +7,7 @@ switch ( cur_state )
 		if instance_exists(obj_Player)
 		{
 			dir = point_direction(x, y, obj_Player.x, obj_Player.y);
-			
+			time_source_start(cleanupTimer);
 		}
 		
 		//set depth to make more visable. 
@@ -15,6 +15,7 @@ switch ( cur_state )
 	break; 
 	
 	case 1:
+		time_source_stop(cleanupTimer);
 		visible = true;
 		xspd = lengthdir_x(spd, dir);
 		yspd = lengthdir_y(spd, dir);

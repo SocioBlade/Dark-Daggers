@@ -7,7 +7,7 @@ seconds = 0;
 
 var AddSecond = function()
 {
-	seconds+=0.01;
+	seconds+=1;
 }
 
-clockTimer = time_source_create(time_source_game, 0.01, time_source_units_seconds, AddSecond, [], -1);
+clockTimer = time_source_create(time_source_game, 1, time_source_units_seconds, AddSecond, [], -1);

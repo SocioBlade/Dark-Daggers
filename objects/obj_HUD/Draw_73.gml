@@ -2,9 +2,14 @@
 // You can write your code in this editor
 
 
-switch(room)
+if room == rm_level_1 || room == rm_level_Store 
 {
-	case rm_level_1:
+	playable_room = true;
+}
+
+switch(playable_room)
+{
+	case true:
 		var _camX = camera_get_view_x( view_camera[0] );
 		var _camY = camera_get_view_y( view_camera[0] );
 		

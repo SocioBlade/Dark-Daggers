@@ -16,3 +16,5 @@ paused_surf = -1;
 
 cam_pos_x = obj_Camera_main.x;
 cam_pos_y = obj_Camera_main.y;
+
+playable_room = false;

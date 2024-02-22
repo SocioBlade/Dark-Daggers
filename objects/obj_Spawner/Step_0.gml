@@ -12,7 +12,7 @@ if (timer >= spawner)
 	instance_create_depth(x, y, depth-1, obj_Skulls);
 	
 	timer = 0;
-	spawner = random_range(100, 500);
+	spawner = random_range(50, 200);
 }
 
 

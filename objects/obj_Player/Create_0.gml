@@ -14,7 +14,7 @@ move_spd = 2;
 x_spd = 0;
 y_spd = 0;
 
-
+interactable = false;
 
 // Sprite control
 #region

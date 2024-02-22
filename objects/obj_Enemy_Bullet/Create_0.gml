@@ -17,3 +17,11 @@ cur_state = 0;
 //Cleanup
 destroy = false;
 player_destroy = false;
+
+var cleanupBullet = function()
+{
+	instance_destroy();
+}
+
+cleanupTimer = time_source_create(time_source_game, 1, time_source_units_seconds, cleanupBullet, [], -1);
+
