@@ -6,6 +6,7 @@ if aim_dir >= 0 && aim_dir < 180
 {
 	draw_held_item(recoil_amt);
 }
+draw_sprite(shadow_spr, 0, x, y);
 
 draw_self();
 
@@ -23,3 +24,6 @@ draw_set_font(font_Juicy);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_alpha(1);
+
+
+

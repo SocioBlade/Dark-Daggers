@@ -90,6 +90,18 @@ if inv_swap_down
 	}
 }
 
+if inv_swap_up
+{
+	current_weapon--;
+	if current_weapon < 0 { current_weapon = array_length(_player_items)-1 }
+	weapon = _player_items[current_weapon];
+	if instance_exists(obj_HUD)
+	{
+		if obj_HUD.weapon_spr_index == 0 { obj_HUD.weapon_spr_index = 1;}
+		else { obj_HUD.weapon_spr_index = 0;}
+	}
+}
+
 //Shooting
 if shoot_timer > 0 {shoot_timer--;}
 if shoot_key && shoot_timer <= 0

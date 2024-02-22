@@ -4,7 +4,7 @@ draw_set_halign(fa_left);
 
 if data == -1
 {
-	draw_text_transformed(48, 88, "Loading", 0.3, 0.3, 0);
+	draw_text_transformed(48, 88, "#HighScore Locked#\n#Come back later!#", 0.3, 0.3, 0);
 }
 else
 {

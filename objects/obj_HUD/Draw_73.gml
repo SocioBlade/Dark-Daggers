@@ -18,7 +18,7 @@ switch(room)
 		var _camWidth = camera_get_view_width(view_camera[0]) / 2;
 
 		var _hpString = "Health:\n" + string(playerHP);
-		var _scoreString = "Score:\n" + string(playerScore);
+		var _scoreString = "Kills:\n" + string(playerScore);
 
 		draw_text_transformed(_camX + _cam_w_center - 82, _camY + _cam_h - 42, _scoreString, 0.3, 0.3, 0);
 		draw_sprite_ext(spr_doom_face_good, spr_index, _camX + _cam_w_center, _camY + _cam_h - _padding, 1.5, 1.5, 0, c_white, 1);
