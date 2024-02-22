@@ -5,6 +5,8 @@ if global.isDead
 {
 	alpha += alphaSpd;
 	alpha = clamp(alpha, 0, 1);
+	//very volotile should be fixed
+	if instance_exists(obj_Lighting_Renderer) { instance_deactivate_object(obj_Lighting_Renderer); }
 }
 
 //Scuffed but works as proof of concept

@@ -88,6 +88,7 @@
     {"name":"spr_RocketAmmo","order":5,"path":"sprites/spr_RocketAmmo/spr_RocketAmmo.yy",},
     {"name":"Obj_FirebaseREST_Listener_Once_Firestore","order":4,"path":"objects/Obj_FirebaseREST_Listener_Once_Firestore/Obj_FirebaseREST_Listener_Once_Firestore.yy",},
     {"name":"obj_DmgPlayer","order":4,"path":"objects/obj_DmgPlayer/obj_DmgPlayer.yy",},
+    {"name":"obj_WIP_Card","order":14,"path":"objects/obj_WIP_Card/obj_WIP_Card.yy",},
     {"name":"FirebaseREST_asyncFunction_Firestore","order":4,"path":"scripts/FirebaseREST_asyncFunction_Firestore/FirebaseREST_asyncFunction_Firestore.yy",},
     {"name":"obj_Input","order":1,"path":"objects/obj_Input/obj_Input.yy",},
     {"name":"Obj_FirebaseFirestore_Document_Delete","order":3,"path":"objects/Obj_FirebaseFirestore_Document_Delete/Obj_FirebaseFirestore_Document_Delete.yy",},

@@ -114,6 +114,7 @@
     {"id":{"name":"spr_RocketAmmo","path":"sprites/spr_RocketAmmo/spr_RocketAmmo.yy",},},
     {"id":{"name":"Obj_FirebaseREST_Listener_Once_Firestore","path":"objects/Obj_FirebaseREST_Listener_Once_Firestore/Obj_FirebaseREST_Listener_Once_Firestore.yy",},},
     {"id":{"name":"obj_DmgPlayer","path":"objects/obj_DmgPlayer/obj_DmgPlayer.yy",},},
+    {"id":{"name":"obj_WIP_Card","path":"objects/obj_WIP_Card/obj_WIP_Card.yy",},},
     {"id":{"name":"FirebaseREST_asyncFunction_Firestore","path":"scripts/FirebaseREST_asyncFunction_Firestore/FirebaseREST_asyncFunction_Firestore.yy",},},
     {"id":{"name":"obj_Input","path":"objects/obj_Input/obj_Input.yy",},},
     {"id":{"name":"Obj_FirebaseFirestore_Document_Delete","path":"objects/Obj_FirebaseFirestore_Document_Delete/Obj_FirebaseFirestore_Document_Delete.yy",},},
